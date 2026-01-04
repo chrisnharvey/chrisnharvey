@@ -32,13 +32,12 @@ jobs:
             
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: push github-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: profile
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README snake" || exit 0
+          git push
 # https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid
 # https://github.com/Platane/Platane
