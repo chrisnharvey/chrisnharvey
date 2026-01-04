@@ -2,7 +2,7 @@
 
 I'm a Senior Software Engineer from the UK.
 
-![chrisnharvey's Stats](https://github-readme-stats.vercel.app/api?username=chrisnharvey&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![chrisnharvey's Stats](https://raw.githubusercontent.com/chrisnharvey/chrisnharvey/refs/heads/master/profile/github-snake-dark.svg)
 
 ## Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=go,php,linux,docker,kubernetes,nix,js,ts,react,laravel)](https://skillicons.dev)
